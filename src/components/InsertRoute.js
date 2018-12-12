@@ -10,8 +10,8 @@ class InsertRoute extends Component {
                 <div>
                     <h2>Hi Welcome</h2>
                     <ul>
-                        <li><Link to={'/'}>Home</Link></li>
-                        <li><Link to={'/login'}>Login</Link></li>
+                        <li style={{'listStyle': 'none'}}><Link to={'/'}>Home</Link></li>
+                        <li style={{'listStyle': 'none'}}><Link to={'/login'}>Login</Link></li>
                     </ul>
                     <hr/>
                     <Switch>
