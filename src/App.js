@@ -4,6 +4,7 @@ import './App.css';
 import TextField from './components/TextField'
 import TableRepeat from "./components/TableRepeat";
 import InsertRoute from "./components/InsertRoute";
+import Anim from "./components/Anim";
 
 class App extends Component {
     render() {
@@ -27,6 +28,8 @@ class App extends Component {
                            remote="app.js"/>
                 <TextField/>
                 <TableRepeat/>
+                <hr/>
+                <Anim/>
                 <InsertRoute/>
             </div>
         );

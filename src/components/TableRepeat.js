@@ -43,11 +43,7 @@ class TableRepeat extends Component{
                     },this)
 
                 }
-            </tbody></table>{
-                this.state.emps.map(function(e){
-                    return(e.id)
-                })
-        }
+            </tbody></table>
         </div>);
     }
 }
